@@ -51,7 +51,7 @@ if(localStorage.getItem("theme") == "light") {
 function calculate(value) {
     if(value == "▲ sci" || value == "▼ sci" || value == "☀️" || value == "🌙") return;
 
-    if(["Shift", "CapsLock", "Control", "Alt", "Tab"].includes(value)) return;
+    if(["Shift", "CapsLock", "Control", "Alt", "Tab", "Meta"].includes(value)) return;
 
     if(display.value == "Invalid Expression" || display.value == "Can't divide by zero") {
           expression = "";
