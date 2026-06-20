@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="history-icon">
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4.43186 14.9656C5.65759 18.4791 9.00032 21 12.9318 21C17.9024 21 21.9318 16.9706 21.9318 12C21.9318 7.02944 17.9024 3 12.9318 3C9.23111 3 5.83124 5.6756 4.62227 8.5"></path>
+    <path d="M12.9319 7V12L15.9319 14"></path>
+    <path d="M8.43054 8.74363C8.43054 8.74363 4.74691 9.3026 4.1879 8.7436C3.62888 8.1846 4.18791 4.50098 4.18791 4.50098"></path>
+</svg>
+</div>
+
+<button id="theme-toggle">🌙</button>
+
+  <div id="panel"><ul></ul></div>
+
+        <div class="display">
+            <input id="disp" type="text" placeholder="0" readonly/>
+        </div>
+
+        <div class="buttons">
+
+            <button id="sci-toggle">▲ sci</button>
+
+            <div id="scientific-panel">
+                 <button class="btn oper">√</button>
+                 <button class="btn oper">π</button>
+                 <button class="btn oper">^</button>
+                 <button class="btn oper">!</button>
+                 <button class="btn oper">Rad</button>
+                 <button class="btn oper">sin</button>
+                 <button class="btn oper">cos</button>
+                 <button class="btn oper">tan</button>
+                 <button class="btn oper">Inv</button>
+                 <button class="btn oper">e</button>
+                 <button class="btn oper">ln</button>
+                 <button class="btn oper">log</button>
+            </div>
+
+            
+            <div id="normal-btns">
+            <button class="btn oper">AC</button>
+            <button class="btn oper">()</button>
+            <button class="btn oper">%</button>
+            <button class="btn oper">/</button>
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn oper">*</button>
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn oper">-</button>
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn oper">+</button>
+            <button class="btn">0</button>
+            <button class="btn">.</button>
+            <button class="btn">X</button>
+            <button class="btn equal">=</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
